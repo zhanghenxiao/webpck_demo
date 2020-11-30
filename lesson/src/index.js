@@ -1,11 +1,5 @@
-import Header from './hedaer'
-import Footer from './footer.js'
-import showImage from './image'
-import showImageScss from './scssImage'
+let root = document.querySelector('.root')
+import './index.scss'
 
-
-// new Header()
-// new Footer()
-// showImage()
-// showImageScss()
+root.innerHTML = '<div class="iconfont icon-bussiness-man"></div>'
 

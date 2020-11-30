@@ -11,7 +11,8 @@ module.exports = {
     path: path.resolve(__dirname,'dist')
   },
   module :{
-    rules:[{
+    rules:[
+      {
       // 只能以这样的结尾图片后缀才能进行打包
       test: /\.(png|jpg|gif)$/,
       use: {
@@ -26,7 +27,15 @@ module.exports = {
           limit: 102400
         }
       }
-    },{
+    },
+    {
+      // 打包字体图标
+      test: /\.(eot|ttf|svg)$/,
+      use: {
+        loader: 'file-loader'
+      }
+    },
+    {
       // 样式文件后缀符合以下才能进行打包
       test: /\.(css|scss)$/,
       use:[
@@ -39,7 +48,7 @@ module.exports = {
             // 设置css 文件中还引入scss等其他的样式文件，会执行后面的sass-loader
             importLoaders: 2,
             // scss样式的模块化使用，让每个文件不会冲突，若没有使用到scss模块化时需删除
-            modules: true
+            // modules: true
           }
         },
         // 打包scss文件模块
@@ -47,7 +56,8 @@ module.exports = {
         // 对c3 新特性增加厂商前缀模块 -webkit
         'postcss-loader'
       ]
-    }]
+    },
+  ]
   },
 
 }

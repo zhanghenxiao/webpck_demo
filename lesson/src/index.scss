@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('../assets/iconfont/iconfont.eot?t=1606699348364'); /* IE9 */
+  src: url('../assets/iconfont/iconfont.eot?t=1606699348364#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAO8AAsAAAAAB9gAAANvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDOIMBATYCJAMMCwgABCAFhG0HPhvPBlGUDUqQ7EdC5naNZjh1hbVtIabhVOGFlP6Nh68x1vu7i2qDJJpcppNEJERCEYuNFOh2t/1+WgRhc74sqwgV2o/JB85L6fycnlITchNug3ZVkp3TZA52BboES7DKns2aD/B/Lqe3GoLzty2XsSbvpUe9AOOAAtsT2yATqIQC4T5gQ/ezm0Ctbj35dcfTNVdTmIMCcR/rGLlaxqE0lIZqobJiZhEfoEJ1ekRHeA++H/+NRjVJRWaO3Lhc27nZ9/tnP1nkP7HvIUA5nQ/8PDJG5BTisDKwrRjFRxTVqoZSc26lIqSpQv//Eyg0U+VG/3iJqGQW14MB1KeLUjpigu+fcjS6/nlUohav2DuEFJG7YAEuCYbRpShOTl7+hIDq5qY+FaZnoKVVPKhf1R9DDHBgb+j1dcDVlf/NTeDtbcDWlUL7tcPurXLHTQrunh9ul/CqliVB3ZIKjVwBpmcFsuhKyF5Vxw2do4vYpnBetHYxmEY42smMYgCGvOF4Zl6Aw+iuPtKviiFbvGYgiK7qE6kGcO+gNGQPZJm0LpzYfbpXeKVw/8nuJFW59nNo/5pYk2t/zM/o9VCUkgJDYUhKaihIyQpDsDIlJdT8zt+Pn8/R3QV0Pv51gNcrrvHfp2rz2W3GtDtt3EZpuQIPY8bSWtT7uEsbj6XPq53+HucSI///k4C4U61TYc0zrTPhaWF3CvEHuYi4CiAq/xUy6NfsN9DX5eHyJKUgfSCeXDy6+gq9iBLpNwQcM9vkKfQf8gP9IhDMPyWD1jX/Wo0L+HoV5w+Oorup+r6CwX9SdqwpmhljLIrCURip7ED1LdjVakZ/pxxa/Q03dXQuJlTrSCCp0gVZtR60UEagQp1xqFRtCWoN286v04YVRanBkC+A0OwbkkafkDX7QQvlFyp0+odKzZGh1mYIr1inL25ou3g0BG0wP+BZSUy2Wxph6RmdR2hwWh0w7sjKC8F4MMqnthgjTzFGPZ2JCAFxEsEG9sMwTCDlxEdLBq5IOh0OqepGAyuJcg1rGDIIZAOmD+CxJGLkNRaNwufPkOMhZOAGUlXyDjHFax2MDYw6oFtD3Il0K4coT44JIQggLBEBG/Ch0IonQFrdzYcsYsAdEE1NDakedTUMljdF77cJapkjc6TIUTScJinlxeh26kdGXIqOJcnlAAA=') format('woff2'),
+  url('../assets/iconfont/iconfont.woff?t=1606699348364') format('woff'),
+  url('../assets/iconfont.ttf?t=1606699348364') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('../assets/iconfont/iconfont.svg?t=1606699348364#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bussiness-man:before {
+  content: "\e6ef";
+}
+
+.icon-gift:before {
+  content: "\e6f9";
+}
+
